@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API-CRUD-Operations </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>API CRUD Operations</h1>
+    <div class="container">
+        <!-- Create (POST) -->
+        <h2>Create (POST)</h2>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="description" placeholder="Description">
+        <button id="create">Create</button>
+        <!-- Read (GET) -->
+        <h2>Read (GET)</h2>
+        <ul id="List">
+            <!-- Data will be displayed here -->
+        </ul>
+        <!-- Update (PUT) -->
+        <h2>Update (PUT)</h2>
+        <input type="text" id="updateId" placeholder="ID">
+        <input type="text" id="newName" placeholder="New Name">
+        <input type="text" id="newDescription" placeholder="New Description">
+        <button id="update">Update</button>
+
+        <!-- Delete (DELETE) -->
+        <h2>Delete (DELETE)</h2>
+        <input type="text" id="deleteId" placeholder="ID">
+        <button id="delete">Delete</button>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jQuery.js"></script>
+</body>
+
+</html>
